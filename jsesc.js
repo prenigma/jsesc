@@ -1,5 +1,7 @@
 'use strict';
 
+const { Buffer } = require('buffer');
+
 const object = {};
 const hasOwnProperty = object.hasOwnProperty;
 const forOwn = (object, callback) => {
